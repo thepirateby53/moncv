@@ -1,0 +1,17 @@
+@media only screen and (max-width:540px){
+	#wrapper{
+			float:none;
+			clear:none;
+			width:100%;		
+			font-size:10px;
+			}
+	.photo{
+		width:100px;
+	}
+	h4{
+		text-align:center;
+	}
+
+}
+
+
