@@ -21,23 +21,22 @@
 	</head> 
 
 	<body>
- 		<div id="wrapper">
- 			<div class="coord">
- 				<img class="photo" src="photo.png" width="150" length="200"/>
+ 		<div id="wrapper" itemscope itemtype="http://schema.org/Person">
+ 			<div class="coord" >
+ 				<img itemprop="image" class="photo" alt="Ma Photo" src="photo.png" width="150" />
 			<i class="icon-camera-retro">
- 				<h1 class="nom">Ayoub SADIQ </h1>
+ 				<h1 itemprop="name" class="nom">Ayoub SADIQ </h1>
  			</i>
  				 				 				 
 
- 				<h2> Etudiant 2ème année master DOSI </h2>
- 				<p> 4 Rue des archives, RES. UNIV. Kergoat </br> 29200, Brest, France </br>
- 				 23 ans, Marocain </br>
- 				 ayoub.saadiq@gmail.com </br>
- 				 06 20 35 54 56 </br>
- 				 Permis B </br>
+ 				<h2 itemprop="jobTitle"> Etudiant 2ème année master DOSI </h2>
+ 				<span itemprop ="address"> 4 Rue des archives, RES. UNIV. Kergoat </br> 29200, Brest, France </br></span>
+ 				<span> 23 ans,</span><span itemprop="nationality"> Marocain </span></br>
+ 				<span itemprop="email"> ayoub.saadiq@gmail.com</span> </br>
+ 				<span itemprop="telephone"> 06 20 35 54 56 </span></br>
+ 				<span> Permis B </span></br>
  				
- 				</p>
- 			</div>
+ 				 			</div>
 
 
  			
@@ -48,21 +47,22 @@
  			<article>	
  				<dl>
  				<dt> 	2017-2018 (en cours) </br>
-			<dd>2ème année Master Développement lOgiciel des Systèmes d’Informations (DOSI)</br>
-			 	* Université de Brest Occidentale – Brest, France</dd></dt>
+			<dd itemprop="affiliation">2ème année Master Développement lOgiciel des Systèmes d’Informations (DOSI)</br>
+			 	* Université de Brest Occidentale – Brest, France</dd>
+			 	</dt>
 
 			 	</br><dt> 	2016-2017 </br>
-			<dd>1ère année Master Spécialisé en Ingénierie Des Systèmes d’Informations</br>
+			<dd itemprop="affiliation">1ère année Master Spécialisé en Ingénierie Des Systèmes d’Informations</br>
 			 	* Faculté des sciences Semlalia – Marrakech, Maroc</dd>
 			</dt>
 
 				 	</br><dt>	2015-2016 </br>
-				<dd>Licence fondamentale option maths/informatique</br>
+				<dd itemprop="affiliation">Licence fondamentale option maths/informatique</br>
 				* Faculté des sciences Semlalia – Marrakech, Maroc</dd>
 			</dt></dt>
 
 				</br><dt> 	2011-2012 </br>
-				<dd>Baccalauréat scientifique option sciences mathématiques</br>
+				<dd itemprop="affiliation" >Baccalauréat scientifique option sciences mathématiques</br>
 			* Lycée Cady Ayyad – Marrakech, Maroc</dd>
 				</dt>
 			</dl>
@@ -78,17 +78,17 @@
 				<article>
 					<dl>
 						<dt> •	Conception : </dt>
-							<dd> *	Merise, UML</dd>
+							<dd itemprop="knows" > *	Merise, UML</dd>
 						<dt>•	Administration des Réseaux et Systèmes : </dt>
-							<dd> *	Unix (Ubuntu) – Sécurité - Maintenance </dd>
+							<dd itemprop="knows" > *	Unix (Ubuntu) – Sécurité - Maintenance </dd>
 						<dt>•	Création de sites internet : </dt>
-							<dd>*	Langages : HTML, CSS, JavaScript, PHP, JQuery </dd>
-							<dd>*	Outils : CakePHP </dd>
+							<dd itemprop="knows" >*	Langages : HTML, CSS, JavaScript, PHP, JQuery </dd>
+							<dd itemprop="knows" >*	Outils : CakePHP </dd>
 						<dt>•	Langages maitrisés : </dt>
-							<dd>*	C/C++ - Java SE – JavaEE (Hibernate, JSF, JSP/Servlet,Primefaces) – C Shell / Bourne Shell - SQL-PL/SQL</dd>
+							<dd itemprop="knows">*	C/C++ - Java SE – JavaEE (Hibernate, JSF, JSP/Servlet,Primefaces) – C Shell / Bourne Shell - SQL-PL/SQL</dd>
 						<dt>•	Paramétrage et intégration ERP</dt>
 						<dt>•	Bases de données : </dt>
-							<dd>*	Oracle– MySQL – Bases de données relationnelles</dd>
+							<dd itemprop="knows">*	Oracle– MySQL – Bases de données relationnelles</dd>
 					</dl>
 				</article>
 			</section>
@@ -131,14 +131,14 @@
 				<article>
 					<dl>
 						<dt> •	Langues </dt>
-							<dd> Français : Lu, écrit et parlé. Niveau C1.</dd>
-							<dd> Anglais : Lu, écrit et parlé.</dd>
-							<dd> Arabe : Langue maternelle.</dd>
+							<dd itemprop="knows" > Français : Lu, écrit et parlé. Niveau C1.</dd>
+							<dd itemprop="knows" > Anglais : Lu, écrit et parlé.</dd>
+							<dd itemprop="knows" > Arabe : Langue maternelle.</dd>
 
-						<dt>•	Football – Basketball – Footing – Natation. </dt>
+						<dt itemprop="knows" >•	Football – Basketball – Footing – Natation. </dt>
 							
 
-						<dt>•	Photographie  </dt>
+						<dt itemprop="knows" >•	Photographie  </dt>
 							
 						
 					</dl>
@@ -150,11 +150,13 @@
 
 			<section>
 				<article>
-					<footer>
-						<p> Cette page a été réalisé par SADIQ Ayoub, étudiant en 2ème année de master DOSI à l'Université de Bretagne Occidentale à Brest </p>
-						 <a href="http://www.facebook.com" >  Facebook  </a> </br>
-						 <a href="http://www.LinkedIn.com" >  LinkedIn </a></br>
-						 <a href="http://www.GitHub.com" >  GitHub  </a> </br>
+					<footer class="foot">
+						<p> Cette page a été réalisé par SADIQ Ayoub, étudiant en 2ème année de master DOSI à l'Université de Bretagne Occidentale à Brest </p></footer>
+						<footer>
+							<ul>
+						 <li><a class="facebook" href="http://www.facebook.com" >  Facebook  </a> </li>
+						 <li><a class="Linkedin" href="http://www.LinkedIn.com" >  LinkedIn </a></li>
+						 <li><a class="git" href="http://www.GitHub.com" >  GitHub  </a> </li></ul>
 					</footer>
 				</article>
 			</section>
