@@ -1,0 +1,57 @@
+@media only screen and (max-width:660px){
+	#wrapper{
+			float:none;
+			clear:none;
+			display:block;
+			width:100%;		
+			font-size:10px;
+			}
+	.photo{
+		width:90px;
+			left:75%;
+
+	}
+	h4{
+		text-align:center;
+	}
+
+	h2{
+		font-size:0.9em;
+	}
+
+	footer li{
+		float:none;
+	list-style-type:none;
+	text-align:center;
+	padding:0 7em;
+	}
+
+}
+
+
+@media only screen and (min-width:660px){
+	h2{
+		font-size:1em;
+	}
+
+	.photo{
+		width:90px;
+			left:75%;
+
+		}
+		
+	}
+
+	@media only screen and (min-width:1080px){
+
+h2{
+		font-size:1.25em;
+	}
+
+	.photo{
+		width:150px;
+			left:75%;
+
+		}
+	}
+	
