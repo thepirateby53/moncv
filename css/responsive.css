@@ -29,3 +29,29 @@
 }
 
 
+@media only screen and (min-width:660px){
+	h2{
+		font-size:1em;
+	}
+
+	.photo{
+		width:90px;
+			left:75%;
+
+		}
+		
+	}
+
+	@media only screen and (min-width:1080px){
+
+h2{
+		font-size:1.25em;
+	}
+
+	.photo{
+		width:100px;
+			left:75%;
+
+		}
+	}
+	
